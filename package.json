@@ -304,7 +304,13 @@
   "browser": {
     "debug": "./lib/browser/debug.js",
     "events": "./lib/browser/events.js",
-    "tty": "./lib/browser/tty.js"
+    "tty": "./lib/browser/tty.js",
+    "fs": false,
+    "glob": false,
+    "jade": false,
+    "path": false,
+    "supports-color": false,
+    "./lib-cov/mocha": false
   },
   "licenses": [
     {
